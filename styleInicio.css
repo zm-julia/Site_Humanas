@@ -88,8 +88,35 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 170vh;
+  height: 175vh;
   margin: 0;
+}
+footer {
+  
+  padding: 20px;
+  text-align: center;
+}
+
+.instagram-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaço entre os perfis */
+  flex-wrap: wrap; /* quebra de linha no mobile */
+  align-items: center;
+}
+
+.instagram {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.instagram img {
+  width: 20px;
+  height: 20px;
 }
 
 

@@ -39,6 +39,17 @@ body {
   color:  rgba(205,124,6,255);
 }
 
+.imagem-container img {
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* permite quebrar linha se necessário */
+    margin: 20px 0;
+    padding: 0 10px;
+    width: 400px;
+    text-align: center;
+    border-radius: 50px;
+  }
 
 nav {
   background-color: rgb(54, 1, 1);
@@ -67,9 +78,6 @@ h2{
 }
 
 
-
-
-
 p{
   font-size: 1.1rem;
   color: black;
@@ -84,6 +92,33 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 550vh;
+  height: 350vh;
   margin: 0;
+}
+footer {
+ 
+  padding: 20px;
+  text-align: center;
+}
+
+.instagram-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaço entre os perfis */
+  flex-wrap: wrap; /* quebra de linha no mobile */
+  align-items: center;
+}
+
+.instagram {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.instagram img {
+  width: 20px;
+  height: 20px;
 }
