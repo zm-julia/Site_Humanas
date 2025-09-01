@@ -116,7 +116,11 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   height: 490vh;
+=======
+  height: 450vh;
+>>>>>>> 4644be534c118146c3fdadf389f87c1f9381c229
   margin: 0;
 }
 footer {
