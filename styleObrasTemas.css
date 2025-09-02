@@ -7,7 +7,6 @@ box-sizing: border-box;
 
 
 
-/* GERAL */
 body {
   background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
   font-family: 'Times New Roman', Times, serif;
@@ -19,7 +18,6 @@ body {
 }
 
 
-/* TÍTULO COM FUNDO COLORIDO */
 .titulo-container {
   background-color: rgb(54, 1, 1);
   padding: 0 0;
@@ -35,7 +33,7 @@ body {
   display: flex;
     justify-content: center;
     gap: 10px;
-    flex-wrap: wrap; /* permite quebrar linha se necessário */
+    flex-wrap: wrap; 
     margin: 20px 0;
     padding: 0 10px;
     width: 400px;
@@ -94,7 +92,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 450vh;
+  height: 430vh;
   margin: 0;
 }
 footer {
@@ -106,8 +104,8 @@ footer {
 .instagram-links {
   display: flex;
   justify-content: center;
-  gap: 20px; /* espaço entre os perfis */
-  flex-wrap: wrap; /* quebra de linha no mobile */
+  gap: 20px; 
+  flex-wrap: wrap; 
   align-items: center;
 }
 

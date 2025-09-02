@@ -8,7 +8,7 @@ box-sizing: border-box;
 
 
 
-/* GERAL */
+
 body {
   background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
   font-family: 'Times New Roman', Times, serif;
@@ -20,7 +20,7 @@ body {
 }
 
 
-/* TÍTULO COM FUNDO COLORIDO */
+
 .titulo-container {
   background-color: rgb(54, 1, 1);
   padding: 0 0;
@@ -40,12 +40,11 @@ body {
   color:  rgba(205,124,6,255);
 }
 
-/* IMAGEM DEPOIS DO TÍTULO */
 .imagem-container img {
 display: flex;
   justify-content: center;
   gap: 10px;
-  flex-wrap: wrap; /* permite quebrar linha se necessário */
+  flex-wrap: wrap;
   margin: 20px 0;
   padding: 0 10px;
   width: 400px;
@@ -90,20 +89,19 @@ p{
   display: flex;
   justify-content: center;
   gap: 10px;
-  flex-wrap: wrap; /* permite quebrar linha se necessário */
+  flex-wrap: wrap; 
   margin: 20px 0;
   padding: 0 10px;
 }
 
 .imagens-lado-a-lado img {
-  width: 48%; /* duas imagens lado a lado com margem */
+  width: 48%; 
   height: auto;
   border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Comportamento para telas muito pequenas */
 @media (max-width: 420px) {
   .imagens-lado-a-lado img {
     width: 100%;
@@ -116,11 +114,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  height: 490vh;
-=======
-  height: 450vh;
->>>>>>> 4644be534c118146c3fdadf389f87c1f9381c229
+  height: 470vh;
   margin: 0;
 }
 footer {
@@ -132,8 +126,8 @@ footer {
 .instagram-links {
   display: flex;
   justify-content: center;
-  gap: 20px; /* espaço entre os perfis */
-  flex-wrap: wrap; /* quebra de linha no mobile */
+  gap: 20px; 
+  flex-wrap: wrap; 
   align-items: center;
 }
 
