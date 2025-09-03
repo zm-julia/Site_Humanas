@@ -75,6 +75,11 @@ h2{
     color: rgb(107, 18, 18);
 }
 
+.titulo{
+ 
+  margin: 0 25px;
+}
+
 
 p{
   font-size: 1.1rem;
@@ -83,6 +88,13 @@ p{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.texto_corrido{
+
+  margin: 0 25px;
+
+}
+
+
 
 
 body {
@@ -90,9 +102,11 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 328vh;
+  height: 340vh;
   margin: 0;
 }
+
+
 footer {
  
   padding: 20px;
@@ -114,6 +128,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 5px;
+
 }
 
 .instagram img {

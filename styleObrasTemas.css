@@ -76,6 +76,10 @@ h2{
     color: rgb(107, 18, 18);
 }
 
+.titulo{
+  margin: 0 25px;
+}
+
 
 
 p{
@@ -85,14 +89,18 @@ p{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.texto_corrido{
 
+  margin: 0 25px;
+
+}
 
 body {
   background-image: url('./img_fundo_site.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 430vh;
+  height: 450vh;
   margin: 0;
 }
 footer {
