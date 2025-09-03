@@ -62,9 +62,10 @@ nav a {
 }
 
 
-h1{
- color:  rgb(107, 18, 18);
 
+.titulo{
+  color:rgb(107, 18, 18); ;
+  margin: 0 25px;
 }
 
 p{
@@ -90,6 +91,12 @@ body{
   background-repeat: no-repeat;
   height: 175vh;
   margin: 0;
+}
+
+.texto_corrido{
+
+  margin: 0 25px;
+
 }
 footer {
   
