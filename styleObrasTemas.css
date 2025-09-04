@@ -1,7 +1,7 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
 
@@ -23,30 +23,30 @@ body {
   padding: 0 0;
   text-align: center;
   color: rgb(107, 18, 18);
-  
+
 
   font-family: Georgia, 'Times New Roman', Times, serif;
- 
+
 }
 
 .imagem-container img {
   display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap; 
-    margin: 20px 0;
-    padding: 0 10px;
-    width: 400px;
-    text-align: center;
-    border-radius: 50px;
-  }
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 0 10px;
+  width: 400px;
+  text-align: center;
+  border-radius: 50px;
+}
 
 .titulo-container h1 {
   font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.1px;
-  color:  rgba(205,124,6,255);
+  color: rgba(205, 124, 6, 255);
 }
 
 
@@ -60,36 +60,36 @@ nav {
 
 nav a {
   font-size: 1.2rem;
-  color: rgba(205,124,6,255);
+  color: rgba(205, 124, 6, 255);
   text-decoration: none;
   margin: 0 10px;
-  
+
 }
 
 
-h1{
+h1 {
   color: rgb(107, 18, 18);
 }
 
-h2{
-    font-size: 1.8rem;
-    color: rgb(107, 18, 18);
+h2 {
+  font-size: 1.8rem;
+  color: rgb(107, 18, 18);
 }
 
-.titulo{
+.titulo {
   margin: 0 25px;
 }
 
 
 
-p{
+p {
   font-size: 1.1rem;
   color: black;
   margin-bottom: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.texto_corrido{
+.texto_corrido {
 
   margin: 0 25px;
 
@@ -103,8 +103,9 @@ body {
   height: 470vh;
   margin: 0;
 }
+
 footer {
- 
+
   padding: 20px;
   text-align: center;
 }
@@ -112,8 +113,8 @@ footer {
 .instagram-links {
   display: flex;
   justify-content: center;
-  gap: 20px; 
-  flex-wrap: wrap; 
+  gap: 20px;
+  flex-wrap: wrap;
   align-items: center;
 }
 
